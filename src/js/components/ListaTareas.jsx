@@ -1,8 +1,13 @@
 import React, { useState }from 'react'
 
 //crea componente
-const ListaTareas = () => {
-    const [ tarea, setTarea] = useState("");
+const ListaTareas = (props) => {
+
+    const [tareas, setTareas] = useState(props.tarea);
+
+    const borrarTarea = (idTarea) => {
+        setTareas(tareas.filter(tarea => tarea.id !== idTarea));
+    }
 
     return (
         <>
