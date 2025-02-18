@@ -6,7 +6,7 @@ body {
 }
 
 ul {
-    width: 75%;
+    width: 50%;
     padding: 0;
     margin-bottom: 0;
 }
@@ -23,6 +23,7 @@ ul li {
 input {
     border: none;
     background-color: #EDEDED;
+    width: 25%;
 }
 
 button {
@@ -40,7 +41,7 @@ button:hover {
 }
 
 hr {
-    width: 75%;
+    width: 50%;
     margin: 7px;
 }
 

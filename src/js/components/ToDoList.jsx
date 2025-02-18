@@ -7,7 +7,7 @@ import "https://kit.fontawesome.com/072e5df971.js"
 const ToDoList = () => {
 
     const [inputTarea, setInputTarea ] = useState('');
-    const [lista, setLista] = useState(["Haz la cama", "Comer cachopo", "Vacaciones de verano"]);
+    const [lista, setLista] = useState([]);
 
     //Manejando la funcion de la tecla Enter
     const manejoKeyPress = (e) => {
