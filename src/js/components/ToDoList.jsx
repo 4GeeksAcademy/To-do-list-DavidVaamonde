@@ -44,7 +44,7 @@ const ToDoList = () => {
     return (
         <>
             <h3>Mi lista de tareas </h3>
-            <div className='container'>
+            <div >
                 <ul>
                     <li>
                         <input 
@@ -58,7 +58,8 @@ const ToDoList = () => {
                     {generarListaTareas()}
                     
                 </ul>
-                <div>{lista.length} tareas</div>
+                <hr />
+                <div id="cuentatareas">{lista.length == 0 ? "No hay tareas, añade una": lista.length+" tarea(s)"}</div>
             </div>
         </>
     )
