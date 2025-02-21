@@ -28,6 +28,7 @@ const ToDoList = () => {
     //Funcion para generar la lista junto con eliminarTarea
     const generarListaTareas= () => {
         let elementos = [];
+
         for (let i = 0; i < lista.length; i++) {
             elementos.push(
                 <li key={i}>
